@@ -7,6 +7,14 @@
 //
 
 #import "AppDelegate.h"
+//宏常量
+#import "Macro.h"
+//登录界面
+#import "LoginViewController.h"
+//主页
+#import "homePageViewController.h"
+//用户订阅列表数据源
+#import "RRCategoryList.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +25,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+    //首次进入程序
+    if ([user objectForKey:is_first_time_enter] == nil) {
+        //为空则创建key
+        BOOL isFirstTimeEnter = YES;
+        [user setBool:isFirstTimeEnter forKey:is_first_time_enter];
+        BOOL isLogin = NO;
+        [user setBool:isLogin forKey:is_login];
+        //创建初始的订阅列表
+        NSArray *arr = [RRCategoryList getInitList];
+        [user setObject:arr forKey:user_category_list];
+    }
+    
+    //如果是第一次进入程序
+    if ([user boolForKey:is_first_time_enter]) {
+        //进入登录界面
+        LoginViewController *login = [[LoginViewController alloc]init];
+        self.window.rootViewController = login;
+    }else{
+        //否则进入主页
+        homePageViewController *homePageVC = [[homePageViewController alloc]init];
+        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:homePageVC];
+        self.window.rootViewController = nav;
+    }
+    
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

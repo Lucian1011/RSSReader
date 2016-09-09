@@ -7,25 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4182ED4F03268DD6C8594A2D /* libPods-RSSReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 207A9904786F24B34055351C /* libPods-RSSReader.a */; };
+		9F16C6981D7FFBED0068134D /* selectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F16C6971D7FFBED0068134D /* selectViewController.m */; };
+		9F16C6A11D7FFE4F0068134D /* selectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F16C69F1D7FFE4F0068134D /* selectTableViewCell.m */; };
+		9F16C6A21D7FFE4F0068134D /* selectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F16C6A01D7FFE4F0068134D /* selectTableViewCell.xib */; };
 		9F6E59221D7EE72900C2A5AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59211D7EE72900C2A5AA /* main.m */; };
 		9F6E59251D7EE72900C2A5AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59241D7EE72900C2A5AA /* AppDelegate.m */; };
 		9F6E59281D7EE72900C2A5AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59271D7EE72900C2A5AA /* ViewController.m */; };
-		9F6E592B1D7EE72900C2A5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E59291D7EE72900C2A5AA /* Main.storyboard */; };
 		9F6E592D1D7EE72900C2A5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E592C1D7EE72900C2A5AA /* Assets.xcassets */; };
 		9F6E59301D7EE72900C2A5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E592E1D7EE72900C2A5AA /* LaunchScreen.storyboard */; };
+		9F6E593B1D7EE77E00C2A5AA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59391D7EE77E00C2A5AA /* LoginViewController.m */; };
+		9F6E593C1D7EE77E00C2A5AA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E593A1D7EE77E00C2A5AA /* LoginViewController.xib */; };
+		9F6E59621D7EF96400C2A5AA /* selectCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59611D7EF96400C2A5AA /* selectCategoryViewController.m */; };
+		9F6E596E1D7EF9CC00C2A5AA /* homePageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59651D7EF9CC00C2A5AA /* homePageCollectionViewCell.m */; };
+		9F6E596F1D7EF9CC00C2A5AA /* homePageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E59661D7EF9CC00C2A5AA /* homePageCollectionViewCell.xib */; };
+		9F6E59701D7EF9CC00C2A5AA /* homePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59681D7EF9CC00C2A5AA /* homePageViewController.m */; };
+		9F6E59711D7EF9CC00C2A5AA /* RRCategoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E596B1D7EF9CC00C2A5AA /* RRCategoryList.m */; };
+		9F6E59721D7EF9CC00C2A5AA /* sourceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E596D1D7EF9CC00C2A5AA /* sourceCategory.m */; };
+		9F6E597B1D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59791D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.m */; };
+		9F6E597C1D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E597A1D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.xib */; };
+		9F6E59801D7F044900C2A5AA /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E597E1D7F044900C2A5AA /* RegisterViewController.m */; };
+		9F6E59811D7F044900C2A5AA /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E597F1D7F044900C2A5AA /* RegisterViewController.xib */; };
+		9F6E598D1D7F07E800C2A5AA /* articleInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59851D7F07E800C2A5AA /* articleInfo.m */; };
+		9F6E598E1D7F07E800C2A5AA /* RRArticleList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59871D7F07E800C2A5AA /* RRArticleList.m */; };
+		9F6E598F1D7F07E800C2A5AA /* RRArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59891D7F07E800C2A5AA /* RRArticleTableViewCell.m */; };
+		9F6E59901D7F07E800C2A5AA /* RRArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E598A1D7F07E800C2A5AA /* RRArticleTableViewCell.xib */; };
+		9F6E59911D7F07E800C2A5AA /* RRArticleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E598C1D7F07E800C2A5AA /* RRArticleTableViewController.m */; };
+		9F6E599B1D7F9A6C00C2A5AA /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E59991D7F9A6C00C2A5AA /* MeViewController.m */; };
+		9F6E599C1D7F9A6C00C2A5AA /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E599A1D7F9A6C00C2A5AA /* MeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		207A9904786F24B34055351C /* libPods-RSSReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSSReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD9F02A0406CA7211B4762A /* Pods-RSSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReader/Pods-RSSReader.debug.xcconfig"; sourceTree = "<group>"; };
+		9F16C6961D7FFBED0068134D /* selectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectViewController.h; sourceTree = "<group>"; };
+		9F16C6971D7FFBED0068134D /* selectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectViewController.m; sourceTree = "<group>"; };
+		9F16C69E1D7FFE4F0068134D /* selectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectTableViewCell.h; sourceTree = "<group>"; };
+		9F16C69F1D7FFE4F0068134D /* selectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectTableViewCell.m; sourceTree = "<group>"; };
+		9F16C6A01D7FFE4F0068134D /* selectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = selectTableViewCell.xib; sourceTree = "<group>"; };
 		9F6E591D1D7EE72900C2A5AA /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6E59211D7EE72900C2A5AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F6E59231D7EE72900C2A5AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F6E59241D7EE72900C2A5AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9F6E59261D7EE72900C2A5AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F6E59271D7EE72900C2A5AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F6E592A1D7EE72900C2A5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F6E592C1D7EE72900C2A5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6E592F1D7EE72900C2A5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F6E59311D7EE72900C2A5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6E59381D7EE77E00C2A5AA /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9F6E59391D7EE77E00C2A5AA /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9F6E593A1D7EE77E00C2A5AA /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9F6E593E1D7EE86A00C2A5AA /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		9F6E59601D7EF96400C2A5AA /* selectCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectCategoryViewController.h; sourceTree = "<group>"; };
+		9F6E59611D7EF96400C2A5AA /* selectCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectCategoryViewController.m; sourceTree = "<group>"; };
+		9F6E59641D7EF9CC00C2A5AA /* homePageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homePageCollectionViewCell.h; sourceTree = "<group>"; };
+		9F6E59651D7EF9CC00C2A5AA /* homePageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homePageCollectionViewCell.m; sourceTree = "<group>"; };
+		9F6E59661D7EF9CC00C2A5AA /* homePageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homePageCollectionViewCell.xib; sourceTree = "<group>"; };
+		9F6E59671D7EF9CC00C2A5AA /* homePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homePageViewController.h; sourceTree = "<group>"; };
+		9F6E59681D7EF9CC00C2A5AA /* homePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homePageViewController.m; sourceTree = "<group>"; };
+		9F6E596A1D7EF9CC00C2A5AA /* RRCategoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRCategoryList.h; sourceTree = "<group>"; };
+		9F6E596B1D7EF9CC00C2A5AA /* RRCategoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRCategoryList.m; sourceTree = "<group>"; };
+		9F6E596C1D7EF9CC00C2A5AA /* sourceCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sourceCategory.h; sourceTree = "<group>"; };
+		9F6E596D1D7EF9CC00C2A5AA /* sourceCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sourceCategory.m; sourceTree = "<group>"; };
+		9F6E59781D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = selectCategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		9F6E59791D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = selectCategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		9F6E597A1D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = selectCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		9F6E597D1D7F044900C2A5AA /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9F6E597E1D7F044900C2A5AA /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		9F6E597F1D7F044900C2A5AA /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		9F6E59841D7F07E800C2A5AA /* articleInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = articleInfo.h; sourceTree = "<group>"; };
+		9F6E59851D7F07E800C2A5AA /* articleInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = articleInfo.m; sourceTree = "<group>"; };
+		9F6E59861D7F07E800C2A5AA /* RRArticleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRArticleList.h; sourceTree = "<group>"; };
+		9F6E59871D7F07E800C2A5AA /* RRArticleList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRArticleList.m; sourceTree = "<group>"; };
+		9F6E59881D7F07E800C2A5AA /* RRArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRArticleTableViewCell.h; sourceTree = "<group>"; };
+		9F6E59891D7F07E800C2A5AA /* RRArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRArticleTableViewCell.m; sourceTree = "<group>"; };
+		9F6E598A1D7F07E800C2A5AA /* RRArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRArticleTableViewCell.xib; sourceTree = "<group>"; };
+		9F6E598B1D7F07E800C2A5AA /* RRArticleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRArticleTableViewController.h; sourceTree = "<group>"; };
+		9F6E598C1D7F07E800C2A5AA /* RRArticleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRArticleTableViewController.m; sourceTree = "<group>"; };
+		9F6E59981D7F9A6C00C2A5AA /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		9F6E59991D7F9A6C00C2A5AA /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		9F6E599A1D7F9A6C00C2A5AA /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		F37E7C8D8D25AF1CC791EB08 /* Pods-RSSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReader/Pods-RSSReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +95,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4182ED4F03268DD6C8594A2D /* libPods-RSSReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C2F74C5149506AC49063B44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				207A9904786F24B34055351C /* libPods-RSSReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AF79074C6DE6125A4A58D50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FD9F02A0406CA7211B4762A /* Pods-RSSReader.debug.xcconfig */,
+				F37E7C8D8D25AF1CC791EB08 /* Pods-RSSReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F6E59141D7EE72900C2A5AA = {
 			isa = PBXGroup;
 			children = (
 				9F6E591F1D7EE72900C2A5AA /* RSSReader */,
 				9F6E591E1D7EE72900C2A5AA /* Products */,
+				9AF79074C6DE6125A4A58D50 /* Pods */,
+				2C2F74C5149506AC49063B44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +144,12 @@
 				9F6E59241D7EE72900C2A5AA /* AppDelegate.m */,
 				9F6E59261D7EE72900C2A5AA /* ViewController.h */,
 				9F6E59271D7EE72900C2A5AA /* ViewController.m */,
-				9F6E59291D7EE72900C2A5AA /* Main.storyboard */,
+				9F6E593D1D7EE86A00C2A5AA /* Macro */,
+				9F6E59631D7EF9CC00C2A5AA /* Home */,
+				9F6E59921D7F14D700C2A5AA /* Me */,
+				9F6E595F1D7EF8AD00C2A5AA /* selectCategory */,
+				9F6E59371D7EE77E00C2A5AA /* Login&Register */,
+				9F6E59821D7F07E800C2A5AA /* ArticleList */,
 				9F6E592C1D7EE72900C2A5AA /* Assets.xcassets */,
 				9F6E592E1D7EE72900C2A5AA /* LaunchScreen.storyboard */,
 				9F6E59311D7EE72900C2A5AA /* Info.plist */,
@@ -79,6 +166,103 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9F6E59371D7EE77E00C2A5AA /* Login&Register */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E59381D7EE77E00C2A5AA /* LoginViewController.h */,
+				9F6E59391D7EE77E00C2A5AA /* LoginViewController.m */,
+				9F6E593A1D7EE77E00C2A5AA /* LoginViewController.xib */,
+				9F6E597D1D7F044900C2A5AA /* RegisterViewController.h */,
+				9F6E597E1D7F044900C2A5AA /* RegisterViewController.m */,
+				9F6E597F1D7F044900C2A5AA /* RegisterViewController.xib */,
+			);
+			path = "Login&Register";
+			sourceTree = "<group>";
+		};
+		9F6E593D1D7EE86A00C2A5AA /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E593E1D7EE86A00C2A5AA /* Macro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		9F6E595F1D7EF8AD00C2A5AA /* selectCategory */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E59601D7EF96400C2A5AA /* selectCategoryViewController.h */,
+				9F6E59611D7EF96400C2A5AA /* selectCategoryViewController.m */,
+				9F6E59781D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.h */,
+				9F6E59791D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.m */,
+				9F6E597A1D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.xib */,
+				9F16C6961D7FFBED0068134D /* selectViewController.h */,
+				9F16C6971D7FFBED0068134D /* selectViewController.m */,
+				9F16C69E1D7FFE4F0068134D /* selectTableViewCell.h */,
+				9F16C69F1D7FFE4F0068134D /* selectTableViewCell.m */,
+				9F16C6A01D7FFE4F0068134D /* selectTableViewCell.xib */,
+			);
+			path = selectCategory;
+			sourceTree = "<group>";
+		};
+		9F6E59631D7EF9CC00C2A5AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E59671D7EF9CC00C2A5AA /* homePageViewController.h */,
+				9F6E59681D7EF9CC00C2A5AA /* homePageViewController.m */,
+				9F6E59641D7EF9CC00C2A5AA /* homePageCollectionViewCell.h */,
+				9F6E59651D7EF9CC00C2A5AA /* homePageCollectionViewCell.m */,
+				9F6E59661D7EF9CC00C2A5AA /* homePageCollectionViewCell.xib */,
+				9F6E59691D7EF9CC00C2A5AA /* model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9F6E59691D7EF9CC00C2A5AA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E596A1D7EF9CC00C2A5AA /* RRCategoryList.h */,
+				9F6E596B1D7EF9CC00C2A5AA /* RRCategoryList.m */,
+				9F6E596C1D7EF9CC00C2A5AA /* sourceCategory.h */,
+				9F6E596D1D7EF9CC00C2A5AA /* sourceCategory.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9F6E59821D7F07E800C2A5AA /* ArticleList */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E598B1D7F07E800C2A5AA /* RRArticleTableViewController.h */,
+				9F6E598C1D7F07E800C2A5AA /* RRArticleTableViewController.m */,
+				9F6E59881D7F07E800C2A5AA /* RRArticleTableViewCell.h */,
+				9F6E59891D7F07E800C2A5AA /* RRArticleTableViewCell.m */,
+				9F6E598A1D7F07E800C2A5AA /* RRArticleTableViewCell.xib */,
+				9F6E59831D7F07E800C2A5AA /* model */,
+			);
+			path = ArticleList;
+			sourceTree = "<group>";
+		};
+		9F6E59831D7F07E800C2A5AA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E59841D7F07E800C2A5AA /* articleInfo.h */,
+				9F6E59851D7F07E800C2A5AA /* articleInfo.m */,
+				9F6E59861D7F07E800C2A5AA /* RRArticleList.h */,
+				9F6E59871D7F07E800C2A5AA /* RRArticleList.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9F6E59921D7F14D700C2A5AA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E59981D7F9A6C00C2A5AA /* MeViewController.h */,
+				9F6E59991D7F9A6C00C2A5AA /* MeViewController.m */,
+				9F6E599A1D7F9A6C00C2A5AA /* MeViewController.xib */,
+			);
+			name = Me;
+			path = Macro/Me;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F6E59341D7EE72900C2A5AA /* Build configuration list for PBXNativeTarget "RSSReader" */;
 			buildPhases = (
+				030F122C908126659E0EE78A /* [CP] Check Pods Manifest.lock */,
 				9F6E59191D7EE72900C2A5AA /* Sources */,
 				9F6E591A1D7EE72900C2A5AA /* Frameworks */,
 				9F6E591B1D7EE72900C2A5AA /* Resources */,
+				FACFB19744D72AC4569D808F /* [CP] Embed Pods Frameworks */,
+				740192FC6B372F2C437C47EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +297,7 @@
 				TargetAttributes = {
 					9F6E591C1D7EE72900C2A5AA = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8452TWPAH4;
 					};
 				};
 			};
@@ -136,36 +324,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6E593C1D7EE77E00C2A5AA /* LoginViewController.xib in Resources */,
 				9F6E59301D7EE72900C2A5AA /* LaunchScreen.storyboard in Resources */,
+				9F6E59811D7F044900C2A5AA /* RegisterViewController.xib in Resources */,
+				9F6E597C1D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.xib in Resources */,
 				9F6E592D1D7EE72900C2A5AA /* Assets.xcassets in Resources */,
-				9F6E592B1D7EE72900C2A5AA /* Main.storyboard in Resources */,
+				9F6E596F1D7EF9CC00C2A5AA /* homePageCollectionViewCell.xib in Resources */,
+				9F6E599C1D7F9A6C00C2A5AA /* MeViewController.xib in Resources */,
+				9F6E59901D7F07E800C2A5AA /* RRArticleTableViewCell.xib in Resources */,
+				9F16C6A21D7FFE4F0068134D /* selectTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030F122C908126659E0EE78A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		740192FC6B372F2C437C47EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSReader/Pods-RSSReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FACFB19744D72AC4569D808F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSSReader/Pods-RSSReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F6E59191D7EE72900C2A5AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6E59801D7F044900C2A5AA /* RegisterViewController.m in Sources */,
+				9F6E593B1D7EE77E00C2A5AA /* LoginViewController.m in Sources */,
+				9F6E598E1D7F07E800C2A5AA /* RRArticleList.m in Sources */,
+				9F6E59711D7EF9CC00C2A5AA /* RRCategoryList.m in Sources */,
+				9F6E598F1D7F07E800C2A5AA /* RRArticleTableViewCell.m in Sources */,
+				9F6E597B1D7EFC5700C2A5AA /* selectCategoryCollectionViewCell.m in Sources */,
+				9F6E598D1D7F07E800C2A5AA /* articleInfo.m in Sources */,
+				9F16C6A11D7FFE4F0068134D /* selectTableViewCell.m in Sources */,
 				9F6E59281D7EE72900C2A5AA /* ViewController.m in Sources */,
+				9F6E596E1D7EF9CC00C2A5AA /* homePageCollectionViewCell.m in Sources */,
+				9F6E59911D7F07E800C2A5AA /* RRArticleTableViewController.m in Sources */,
 				9F6E59251D7EE72900C2A5AA /* AppDelegate.m in Sources */,
+				9F6E59621D7EF96400C2A5AA /* selectCategoryViewController.m in Sources */,
+				9F6E59721D7EF9CC00C2A5AA /* sourceCategory.m in Sources */,
 				9F6E59221D7EE72900C2A5AA /* main.m in Sources */,
+				9F6E599B1D7F9A6C00C2A5AA /* MeViewController.m in Sources */,
+				9F6E59701D7EF9CC00C2A5AA /* homePageViewController.m in Sources */,
+				9F16C6981D7FFBED0068134D /* selectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F6E59291D7EE72900C2A5AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6E592A1D7EE72900C2A5AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F6E592E1D7EE72900C2A5AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -263,22 +512,26 @@
 		};
 		9F6E59351D7EE72900C2A5AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD9F02A0406CA7211B4762A /* Pods-RSSReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RSSReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.13xliu3.RSSReader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.RSSReader1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		9F6E59361D7EE72900C2A5AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37E7C8D8D25AF1CC791EB08 /* Pods-RSSReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = RSSReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.13xliu3.RSSReader;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunshine.RSSReader1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -302,6 +555,7 @@
 				9F6E59361D7EE72900C2A5AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
